@@ -1,0 +1,78 @@
+body {
+    margin: 10px;
+
+}
+
+
+.Principal {
+    height: 1000px;
+    width: 620px;
+    bottom: 200px;
+    margin-left: 100PX;
+    margin-right: 10PX;
+    margin-top: 80px;
+    margin-bottom: 80px ;
+    background-color: rgb(182, 212, 202);
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    justify-content: center;
+    
+}
+
+.encab {
+    display: grid;
+    width: 620px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
+.box-container {
+    height: 900px;
+    width: 620px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px 140px;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+.cont {
+    border-radius: 20px;
+    background-color: rgb(110, 199, 172);
+    border: 10px;
+    border-color: rgb(218, 198, 198);
+    text-align: center;
+    display: grid;
+    position: relative;
+}
+
+
+.img {
+
+    height: 90px;
+    width: 90px;
+    border-radius: 60%;
+    margin: 6px 25px 6px;
+}
+
+.img-box {
+
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+
+.nombre {
+
+    margin-top: 8px;
+    color: whitesmoke;
+    font: larger;
+}

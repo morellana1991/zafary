@@ -1,0 +1,82 @@
+body {
+    margin: 10px;
+
+}
+
+
+.Principal {
+    height: 350px;
+    width: 400px;
+    bottom: 200px;
+    margin-left: 500PX;
+    margin-right: 500PX;
+    margin-top: 80px;
+    margin-bottom: 80px ;
+    background-color: rgb(171, 245, 223);
+    border-radius: 30px;
+    border-width: 2px;
+    justify-content: center;
+    border: 1px solid rgb(93, 192, 223);
+    color:  rgb(98, 241, 129);
+    font-size: 30px;
+}
+
+
+.encab {
+    display: grid;
+    width: 380px;
+    margin-left: 10PX;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+
+}
+.box-container {
+    height: 900px;
+    width: 620px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px 140px;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+input[type=text], input[type=password] {
+    width: 250px;
+    margin: 8px ;
+    padding: 14px 40px;
+    display: inline-block;
+    border: 1px solid rgb(124, 170, 130);
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(98, 241, 129);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 40px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    margin: 8px ;
+    border-radius: 15px;
+    background-color: rgb(55, 175, 135);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.tex{
+
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    color: rgb(46, 42, 42);
+    font-size: 15px;
+}

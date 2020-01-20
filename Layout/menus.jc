@@ -1,0 +1,33 @@
+const Home = document.querySelector('#homee');
+const Zpotify = document.querySelector('#zpotifyy');
+const Wasp = document.querySelector('#what');
+
+
+
+const contDinamico = document.querySelector('#Menues');
+const nombrePagina = document.querySelector('#nombre-pagina');
+
+Home.addEventListener('click', AbrirHome );
+
+function AbrirHome() {
+    
+    contDinamico.setAttribute('src', 'C:/Users/TEMP.LAPTOP-EU8NG08B.000/Documents/Home/home.html');
+}
+
+Zpotify.addEventListener('click', AbrirZpo );    
+
+function AbrirZpo() {
+    contDinamico.setAttribute('src', 'C:/Users/TEMP.LAPTOP-EU8NG08B.000/Documents/Zpotyfi/zpotify_ejercicio.html');
+}
+
+Wasp.addEventListener('click', AbrirWasp );
+
+function AbrirWasp() {
+
+    contDinamico.setAttribute('src', 'C:/Users/TEMP.LAPTOP-EU8NG08B.000/Documents/Whatzap/Whatsap.html');
+}
+
+
+
+
+
